@@ -10,7 +10,7 @@ body {
 }
 
 header {
-  background-color: rgb(255, 255, 255, 0.1);
+  background-color: rgb(255, 255, 255, 0.65);
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -55,4 +55,42 @@ header .link li:hover {
   background: linear-gradient(rgb(225, 31, 225), rgb(237, 178, 66));
   border-radius: 15px;
   cursor: pointer;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 1rem 1rem 4rem;
+}
+
+main .img {
+  background-color: rgba(255, 255, 255, 0.511);
+  padding: 1rem;
+  border-radius: 5px;
+  position: relative;
+}
+
+main .img img {
+  width: 350px;
+  height: 350px;
+  border-radius: 5px;
+}
+
+main .img:hover {
+  cursor: zoom-out;
+}
+
+main .img:hover::after {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(211, 211, 211, 0.5);
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  font-weight: 700;
+  border: 1px solid white;
 }
