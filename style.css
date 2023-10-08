@@ -94,3 +94,34 @@ main .img:hover::after {
   font-weight: 700;
   border: 1px solid white;
 }
+
+main .img1:hover::after {
+  content: "Times Square";
+}
+
+main .img2:hover::after {
+  content: "Empire State Building";
+}
+
+main .img3:hover::after {
+  content: "Central Park";
+}
+main .img4:hover::after {
+  content: "Bryant Park";
+}
+
+main .img5:hover::after {
+  content: "9/11 Memorial";
+}
+
+main .img6:hover::after {
+  content: "Vessel";
+}
+
+footer {
+  text-align: center;
+  padding: 1.8rem;
+  background-color: rgb(255, 255, 255, 0.65);
+  font-size: 1.2rem;
+  color: rgba(0, 0, 0, 0.711);
+}
